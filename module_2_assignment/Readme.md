@@ -25,11 +25,19 @@ Angular Velocity=Linear Velocity/Radius​
 3. Run the Node
       Launch the Turtlesim node: '''ros2 run turtlesim turtlesim_node'''
 4. Run the custom node: '''ros2 run module_2_assignment task_1'''
+   
    Upon execution, a prompt message will appear in the terminal: 
+
    '''[INFO] [1736527635.772122036] [minimal_publisher]: Enter movement mode (1 for circle, 2 for spiral):'''
+
    cCase 1: Circular Movement
-      If you select 1, another prompt will appear asking for the circle's radius: : '''[INFO] [1736527765.870901739] [minimal_publisher]: Enter radius for the circle:'''
+
+      If you select 1, another prompt will appear asking for the circle's radius:
+
+      '''[INFO] [1736527765.870901739] [minimal_publisher]: Enter radius for the circle:'''
+
       After entering the desired radius (e.g., 2.5), the turtle will start moving in a circular path with the specified radius.
+      
    Case 2: Spiral Movement
       If you select 2, the turtle will begin moving in a spiral pattern, where the radius gradually increases over time.
 
