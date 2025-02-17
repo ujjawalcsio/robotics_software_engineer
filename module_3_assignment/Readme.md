@@ -12,6 +12,42 @@ This assignment focuses on understanding and applying the concepts of URDF (Unif
   - **Define the transform tree** for the robotic arm without including any visualization tags. Focus solely on creating the correct transforms for the arm's joints.
   - **Do not include any visual elements** at this stage—only the transforms should be defined.
 
+
+- **How to Run**
+  - Follow the steps below to build and launch the 3 DOF robotic arm transform tree in ROS 2.
+  1. Navigate to the Workspace:
+
+      cd ~/assignment_ws
+  2. Build the Package:
+
+      colcon build
+  3. Source the Workspace:
+
+      source install/setup.bash
+  4. Launch the Transform Tree:
+
+      ros2 launch module_3_assignment view_tf.launch.py
+
+- After running the above command RViz and joint state publisher GUI will open automatically. To properly visualize the transform tree, follow these steps:
+
+    1. Set the Fixed Frame:
+
+        - In RViz, go to the "Global Options" panel on the left.
+        
+        - Change "Fixed Frame" to "base_link".
+    2. Add the TF Display:
+
+        - Click the "Add" button in RViz.
+        - Select "By display type" → "TF", then click "OK".
+
+    3. Enable Link Names in TF:
+
+        - Expand the TF display in the left panel.
+        - Check the box labeled "Show Names".
+    4. Move the sliders in the GUI to control the joints.
+
+
+
 ### Task 2: Add Joints and Visual Elements
 
 - **Enhance the robotic arm** you created earlier by adding joints:
@@ -21,6 +57,50 @@ This assignment focuses on understanding and applying the concepts of URDF (Unif
 
 - **Add visualization tags** to your robot's URDF to create the body, primarily using cylinder shapes for simplicity.
 
+- **How to Run**
+  - Follow the steps below to build and launch the 3 DOF robotic arm transform tree in ROS 2.
+  1. Navigate to the Workspace:
+
+      cd ~/assignment_ws
+  2. Build the Package:
+
+      colcon build
+  3. Source the Workspace:
+
+      source install/setup.bash
+  4. Launch the Transform Tree:
+
+      ros2 launch module_3_assignment view_tf.launch_1.py
+
+- After running the above command RViz and joint state publisher GUI will open automatically. To properly visualize the transform tree, follow these steps:
+
+    1. Set the Fixed Frame:
+
+        - In RViz, go to the "Global Options" panel on the left.
+        
+        - Change "Fixed Frame" to "base_link".
+    2. Add the TF Display:
+
+        - Click the "Add" button in RViz.
+        - Select "By display type" → "TF", then click "OK".
+
+    3. Enable Link Names in TF:
+
+        - Expand the TF display in the left panel.
+        - Check the box labeled "Show Names".
+
+    4. Add the RobotModel:
+
+        - Click the "Add" button in RViz.
+        - Select "By display type" → "RobotModel", then click "OK".
+    5. Enable Description Topic in RobotModel:
+
+        - Expand the RobotModel display in the left panel.
+        - Check the box labeled "/robot_description".
+
+    6. Move the sliders in the GUI to control the joints.
+
+
 ### Task 3: Build a Mobile Manipulator
 
 - **Integrate the robotic arm** with a mobile robot platform:
@@ -29,6 +109,50 @@ This assignment focuses on understanding and applying the concepts of URDF (Unif
 
 - **Create an Ackerman Drive System:**
   - **Design a car-like robot structure** that represents the front axle rotations for turning, simulating an Ackerman steering mechanism.
+
+
+- **How to Run**
+  - Follow the steps below to build and launch the mobile manipulator included robotic arm with Ackerman Drive System in ROS 2.
+  1. Navigate to the Workspace:
+
+      cd ~/assignment_ws
+  2. Build the Package:
+
+      colcon build
+  3. Source the Workspace:
+
+      source install/setup.bash
+  4. Launch the Transform Tree:
+
+      ros2 launch module_3_assignment mobile_manipulator.launch.py
+
+- After running the above command RViz and joint state publisher GUI will open automatically. To properly visualize the transform tree, follow these steps:
+
+    1. Set the Fixed Frame:
+
+        - In RViz, go to the "Global Options" panel on the left.
+        
+        - Change "Fixed Frame" to "base_link".
+    2. Add the TF Display:
+
+        - Click the "Add" button in RViz.
+        - Select "By display type" → "TF", then click "OK".
+
+    3. Enable Link Names in TF:
+
+        - Expand the TF display in the left panel.
+        - Check the box labeled "Show Names".
+
+    4. Add the RobotModel:
+
+        - Click the "Add" button in RViz.
+        - Select "By display type" → "RobotModel", then click "OK".
+    5. Enable Description Topic in RobotModel:
+
+        - Expand the RobotModel display in the left panel.
+        - Check the box labeled "/robot_description".
+
+    6. Move the sliders in the GUI to control the joints.
 
 
 ### Task 4: Debugging Task - Fixing an Incorrect URDF for a Wheeled Robot with a Lifting Mechanism

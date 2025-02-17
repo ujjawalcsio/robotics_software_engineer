@@ -1,0 +1,319 @@
+[0.089s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.089s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], base_paths=['.'], build_base='build', continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fdb1aee4160>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fdb1aee4160>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fdb1aee4640>)
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.157s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/her0/assignment_ws/src/robotics_software_engineer'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(module_1_assignment) by extensions ['ignore']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(module_1_assignment) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(module_1_assignment) by extensions ['colcon_pkg']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(module_1_assignment) by extension 'colcon_pkg'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(module_1_assignment) by extensions ['colcon_meta']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(module_1_assignment) by extension 'colcon_meta'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(module_1_assignment) by extensions ['python']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(module_1_assignment) by extension 'python'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(module_1_assignment) by extensions ['python_setup_py']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(module_1_assignment) by extension 'python_setup_py'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(module_1_assignment/build) by extensions ['ignore']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(module_1_assignment/build) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(module_1_assignment/build) by extensions ['colcon_pkg']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(module_1_assignment/build) by extension 'colcon_pkg'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(module_1_assignment/build) by extensions ['colcon_meta']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(module_1_assignment/build) by extension 'colcon_meta'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(module_1_assignment/build) by extensions ['python']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(module_1_assignment/build) by extension 'python'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(module_1_assignment/build) by extensions ['python_setup_py']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(module_1_assignment/build) by extension 'python_setup_py'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_1_assignment/include) by extensions ['ignore']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_1_assignment/include) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_1_assignment/include) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_1_assignment/include) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_1_assignment/include) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_1_assignment/include) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_1_assignment/include) by extensions ['python']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_1_assignment/include) by extension 'python'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_1_assignment/include) by extensions ['python_setup_py']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_1_assignment/include) by extension 'python_setup_py'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_1_assignment/src) by extensions ['ignore']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_1_assignment/src) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_1_assignment/src) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_1_assignment/src) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_1_assignment/src) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_1_assignment/src) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_1_assignment/src) by extensions ['python']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_1_assignment/src) by extension 'python'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_1_assignment/src) by extensions ['python_setup_py']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_1_assignment/src) by extension 'python_setup_py'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_2_assignment) by extensions ['ignore']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_2_assignment) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_2_assignment) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_2_assignment) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_2_assignment) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_2_assignment) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_2_assignment) by extensions ['python']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_2_assignment) by extension 'python'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_2_assignment) by extensions ['python_setup_py']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_2_assignment) by extension 'python_setup_py'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_2_assignment/launch) by extensions ['ignore']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_2_assignment/launch) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_2_assignment/launch) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_2_assignment/launch) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_2_assignment/launch) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_2_assignment/launch) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_2_assignment/launch) by extensions ['python']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_2_assignment/launch) by extension 'python'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_2_assignment/launch) by extensions ['python_setup_py']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_2_assignment/launch) by extension 'python_setup_py'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_2_assignment/src) by extensions ['ignore']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_2_assignment/src) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_2_assignment/src) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_2_assignment/src) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_2_assignment/src) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_2_assignment/src) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(module_2_assignment/src) by extensions ['python']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(module_2_assignment/src) by extension 'python'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(module_2_assignment/src) by extensions ['python_setup_py']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(module_2_assignment/src) by extension 'python_setup_py'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(module_3_assignment) by extensions ['ignore']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(module_3_assignment) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(module_3_assignment) by extensions ['colcon_pkg']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(module_3_assignment) by extension 'colcon_pkg'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(module_3_assignment) by extensions ['colcon_meta']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(module_3_assignment) by extension 'colcon_meta'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(module_3_assignment) by extensions ['python']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(module_3_assignment) by extension 'python'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(module_3_assignment) by extensions ['python_setup_py']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(module_3_assignment) by extension 'python_setup_py'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(module_3_assignment/launch) by extensions ['ignore']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(module_3_assignment/launch) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(module_3_assignment/launch) by extensions ['colcon_pkg']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(module_3_assignment/launch) by extension 'colcon_pkg'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(module_3_assignment/launch) by extensions ['colcon_meta']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(module_3_assignment/launch) by extension 'colcon_meta'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(module_3_assignment/launch) by extensions ['python']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(module_3_assignment/launch) by extension 'python'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(module_3_assignment/launch) by extensions ['python_setup_py']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(module_3_assignment/launch) by extension 'python_setup_py'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(module_3_assignment/urdf) by extensions ['ignore']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(module_3_assignment/urdf) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(module_3_assignment/urdf) by extensions ['colcon_pkg']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(module_3_assignment/urdf) by extension 'colcon_pkg'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(module_3_assignment/urdf) by extensions ['colcon_meta']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(module_3_assignment/urdf) by extension 'colcon_meta'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(module_3_assignment/urdf) by extensions ['python']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(module_3_assignment/urdf) by extension 'python'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(module_3_assignment/urdf) by extensions ['python_setup_py']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(module_3_assignment/urdf) by extension 'python_setup_py'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment) by extensions ['ignore']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment) by extensions ['colcon_pkg']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment) by extension 'colcon_pkg'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment) by extensions ['colcon_meta']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment) by extension 'colcon_meta'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment) by extensions ['python']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment) by extension 'python'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment) by extensions ['python_setup_py']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment) by extension 'python_setup_py'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/module_4_assignment) by extensions ['ignore']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/module_4_assignment) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/module_4_assignment) by extensions ['colcon_pkg']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/module_4_assignment) by extension 'colcon_pkg'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/module_4_assignment) by extensions ['colcon_meta']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/module_4_assignment) by extension 'colcon_meta'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/module_4_assignment) by extensions ['python']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/module_4_assignment) by extension 'python'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/module_4_assignment) by extensions ['python_setup_py']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/module_4_assignment) by extension 'python_setup_py'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug) by extensions ['ignore']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug) by extensions ['colcon_pkg']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug) by extension 'colcon_pkg'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug) by extensions ['colcon_meta']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug) by extension 'colcon_meta'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug) by extensions ['python']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug) by extension 'python'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug) by extensions ['python_setup_py']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug) by extension 'python_setup_py'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/bag) by extensions ['ignore']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/bag) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/bag) by extensions ['colcon_pkg']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/bag) by extension 'colcon_pkg'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/bag) by extensions ['colcon_meta']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/bag) by extension 'colcon_meta'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/bag) by extensions ['python']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/bag) by extension 'python'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/bag) by extensions ['python_setup_py']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/bag) by extension 'python_setup_py'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/bag/rosbag2_2024_03_17-11_56_55) by extensions ['ignore']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/bag/rosbag2_2024_03_17-11_56_55) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/bag/rosbag2_2024_03_17-11_56_55) by extensions ['colcon_pkg']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/bag/rosbag2_2024_03_17-11_56_55) by extension 'colcon_pkg'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/bag/rosbag2_2024_03_17-11_56_55) by extensions ['colcon_meta']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/bag/rosbag2_2024_03_17-11_56_55) by extension 'colcon_meta'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/bag/rosbag2_2024_03_17-11_56_55) by extensions ['python']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/bag/rosbag2_2024_03_17-11_56_55) by extension 'python'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/bag/rosbag2_2024_03_17-11_56_55) by extensions ['python_setup_py']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/bag/rosbag2_2024_03_17-11_56_55) by extension 'python_setup_py'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/launch) by extensions ['ignore']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/launch) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/launch) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/launch) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/launch) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/launch) by extension 'colcon_meta'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/launch) by extensions ['python']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/launch) by extension 'python'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/launch) by extensions ['python_setup_py']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/launch) by extension 'python_setup_py'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/models) by extensions ['ignore']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/models) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/models) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/models) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/models) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/models) by extension 'colcon_meta'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/models) by extensions ['python']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/models) by extension 'python'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/models) by extensions ['python_setup_py']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/models) by extension 'python_setup_py'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/models/line_track) by extensions ['ignore']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/models/line_track) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/models/line_track) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/models/line_track) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/models/line_track) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/models/line_track) by extension 'colcon_meta'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/models/line_track) by extensions ['python']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/models/line_track) by extension 'python'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/models/line_track) by extensions ['python_setup_py']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/models/line_track) by extension 'python_setup_py'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/models/meshes) by extensions ['ignore']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/models/meshes) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/models/meshes) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/models/meshes) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/models/meshes) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/models/meshes) by extension 'colcon_meta'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/models/meshes) by extensions ['python']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/models/meshes) by extension 'python'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/models/meshes) by extensions ['python_setup_py']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/models/meshes) by extension 'python_setup_py'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/src) by extensions ['ignore']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/src) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/src) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/src) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/src) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/src) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/src) by extensions ['python']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/src) by extension 'python'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/src) by extensions ['python_setup_py']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/src) by extension 'python_setup_py'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/urdf) by extensions ['ignore']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/urdf) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/urdf) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/urdf) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/urdf) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/urdf) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/urdf) by extensions ['python']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/urdf) by extension 'python'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/urdf) by extensions ['python_setup_py']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/urdf) by extension 'python_setup_py'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/worlds) by extensions ['ignore']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/worlds) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/worlds) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/worlds) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/worlds) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/worlds) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/worlds) by extensions ['python']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/worlds) by extension 'python'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/worlds) by extensions ['python_setup_py']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_4_assessment/robot_sensing_debug/worlds) by extension 'python_setup_py'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_5_assignment) by extensions ['ignore']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_5_assignment) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_5_assignment) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_5_assignment) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_5_assignment) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_5_assignment) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_5_assignment) by extensions ['python']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_5_assignment) by extension 'python'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_5_assignment) by extensions ['python_setup_py']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_5_assignment) by extension 'python_setup_py'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_6_assignment) by extensions ['ignore']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_6_assignment) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_6_assignment) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_6_assignment) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_6_assignment) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_6_assignment) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_6_assignment) by extensions ['python']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(module_6_assignment) by extension 'python'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(module_6_assignment) by extensions ['python_setup_py']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(module_6_assignment) by extension 'python_setup_py'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(module_7_assignment) by extensions ['ignore']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(module_7_assignment) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(module_7_assignment) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(module_7_assignment) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(module_7_assignment) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(module_7_assignment) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(module_7_assignment) by extensions ['python']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(module_7_assignment) by extension 'python'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(module_7_assignment) by extensions ['python_setup_py']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(module_7_assignment) by extension 'python_setup_py'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(module_8_assignment) by extensions ['ignore']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(module_8_assignment) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(module_8_assignment) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(module_8_assignment) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(module_8_assignment) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(module_8_assignment) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(module_8_assignment) by extensions ['python']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(module_8_assignment) by extension 'python'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(module_8_assignment) by extensions ['python_setup_py']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(module_8_assignment) by extension 'python_setup_py'
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.173s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/her0/assignment_ws/install
+[0.173s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/her0/robotisim_ws/install
+[0.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.174s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.175s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.175s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.175s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.175s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.175s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.177s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.177s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.177s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.184s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.185s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.186s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/her0/assignment_ws/src/robotics_software_engineer/install/local_setup.ps1'
+[0.186s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/her0/assignment_ws/src/robotics_software_engineer/install/_local_setup_util_ps1.py'
+[0.187s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/her0/assignment_ws/src/robotics_software_engineer/install/setup.ps1'
+[0.187s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/her0/assignment_ws/src/robotics_software_engineer/install/local_setup.sh'
+[0.187s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/her0/assignment_ws/src/robotics_software_engineer/install/_local_setup_util_sh.py'
+[0.188s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/her0/assignment_ws/src/robotics_software_engineer/install/setup.sh'
+[0.188s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/her0/assignment_ws/src/robotics_software_engineer/install/local_setup.bash'
+[0.188s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/her0/assignment_ws/src/robotics_software_engineer/install/setup.bash'
+[0.189s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/her0/assignment_ws/src/robotics_software_engineer/install/local_setup.zsh'
+[0.189s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/her0/assignment_ws/src/robotics_software_engineer/install/setup.zsh'

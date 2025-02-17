@@ -1,0 +1,18 @@
+/home/her0/assignment_ws/src/robotics_software_engineer/install/module_3_assignment/share/module_3_assignment/launch/view_tf.launch copy.py
+/home/her0/assignment_ws/src/robotics_software_engineer/install/module_3_assignment/share/module_3_assignment/launch/view_tf.launch.py
+/home/her0/assignment_ws/src/robotics_software_engineer/install/module_3_assignment/share/module_3_assignment/launch/robot_lift_debug.launch.py
+/home/her0/assignment_ws/src/robotics_software_engineer/install/module_3_assignment/share/ament_index/resource_index/package_run_dependencies/module_3_assignment
+/home/her0/assignment_ws/src/robotics_software_engineer/install/module_3_assignment/share/ament_index/resource_index/parent_prefix_path/module_3_assignment
+/home/her0/assignment_ws/src/robotics_software_engineer/install/module_3_assignment/share/module_3_assignment/environment/ament_prefix_path.sh
+/home/her0/assignment_ws/src/robotics_software_engineer/install/module_3_assignment/share/module_3_assignment/environment/ament_prefix_path.dsv
+/home/her0/assignment_ws/src/robotics_software_engineer/install/module_3_assignment/share/module_3_assignment/environment/path.sh
+/home/her0/assignment_ws/src/robotics_software_engineer/install/module_3_assignment/share/module_3_assignment/environment/path.dsv
+/home/her0/assignment_ws/src/robotics_software_engineer/install/module_3_assignment/share/module_3_assignment/local_setup.bash
+/home/her0/assignment_ws/src/robotics_software_engineer/install/module_3_assignment/share/module_3_assignment/local_setup.sh
+/home/her0/assignment_ws/src/robotics_software_engineer/install/module_3_assignment/share/module_3_assignment/local_setup.zsh
+/home/her0/assignment_ws/src/robotics_software_engineer/install/module_3_assignment/share/module_3_assignment/local_setup.dsv
+/home/her0/assignment_ws/src/robotics_software_engineer/install/module_3_assignment/share/module_3_assignment/package.dsv
+/home/her0/assignment_ws/src/robotics_software_engineer/install/module_3_assignment/share/ament_index/resource_index/packages/module_3_assignment
+/home/her0/assignment_ws/src/robotics_software_engineer/install/module_3_assignment/share/module_3_assignment/cmake/module_3_assignmentConfig.cmake
+/home/her0/assignment_ws/src/robotics_software_engineer/install/module_3_assignment/share/module_3_assignment/cmake/module_3_assignmentConfig-version.cmake
+/home/her0/assignment_ws/src/robotics_software_engineer/install/module_3_assignment/share/module_3_assignment/package.xml

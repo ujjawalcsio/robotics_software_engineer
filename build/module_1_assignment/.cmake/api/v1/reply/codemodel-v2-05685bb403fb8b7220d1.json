@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "module_1_assignment",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "module_1_assignment_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_1_assignment_uninstall-8d8197230ce36db94d81.json",
+					"name" : "module_1_assignment_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task_1-384a7d9d1df2f013314d.json",
+					"name" : "task_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task_2-f90f1ca8a13a6e7bf883.json",
+					"name" : "task_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task_3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task_3-93d3743ac7d9df997871.json",
+					"name" : "task_3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task_3.1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task_3.1-0190cb9ed425b1520f19.json",
+					"name" : "task_3.1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-23e086c0c4bba585c810.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/her0/assignment_ws/src/robotics_software_engineer/build/module_1_assignment",
+		"source" : "/home/her0/assignment_ws/src/robotics_software_engineer/module_1_assignment"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<robot name="three_dof_arm">
+
+    <!-- Base Link -->
+    <link name="base_link"/>
+
+    <!-- Link 1 -->
+    <link name="link1"/>
+    
+    <!-- Joint 1 (on top of base_link) -->
+    <joint name="joint1" type="revolute">
+        <parent link="base_link"/>
+        <child link="link1"/>
+        <origin xyz="0 0 0.1" rpy="0 0 0"/>  <!-- Placed at top of base_link -->
+        <axis xyz="0 0 1"/>
+        <limit lower="-1.57" upper="1.57" effort="10.0" velocity="1.0"/>
+    </joint>
+
+    <!-- Link 2 -->
+    <link name="link2"/>
+    
+    <!-- Joint 2 (on top of Link 1) -->
+    <joint name="joint2" type="revolute">
+        <parent link="link1"/>
+        <child link="link2"/>
+        <origin xyz="0 0 0.45" rpy="0 0 0"/>  <!-- Placed at top of link1 -->
+        <axis xyz="0 1 0"/>
+        <limit lower="-1.57" upper="1.57" effort="10.0" velocity="1.0"/>
+    </joint>
+
+    <!-- Link 3 -->
+    <link name="link3"/>
+    
+    <!-- Joint 3 (on top of Link 2) -->
+    <joint name="joint3" type="revolute">
+        <parent link="link2"/>
+        <child link="link3"/>
+        <origin xyz="0 0 0.5" rpy="0 0 0"/>  <!-- Placed at top of link2 -->
+        <axis xyz="0 1 0"/>
+        <limit lower="-1.57" upper="1.57" effort="10.0" velocity="1.0"/>
+    </joint>
+
+</robot>

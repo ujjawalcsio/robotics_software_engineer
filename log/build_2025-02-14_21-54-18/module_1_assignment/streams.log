@@ -1,0 +1,70 @@
+[0.032s] Invoking command in '/home/her0/assignment_ws/src/robotics_software_engineer/build/module_1_assignment': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/her0/assignment_ws/src/robotics_software_engineer/module_1_assignment -DCMAKE_INSTALL_PREFIX=/home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment
+[0.077s] -- The C compiler identification is GNU 9.4.0
+[0.122s] -- The CXX compiler identification is GNU 9.4.0
+[0.126s] -- Check for working C compiler: /usr/bin/cc
+[0.181s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.182s] -- Detecting C compiler ABI info
+[0.235s] -- Detecting C compiler ABI info - done
+[0.247s] -- Detecting C compile features
+[0.247s] -- Detecting C compile features - done
+[0.250s] -- Check for working CXX compiler: /usr/bin/c++
+[0.315s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.316s] -- Detecting CXX compiler ABI info
+[0.384s] -- Detecting CXX compiler ABI info - done
+[0.397s] -- Detecting CXX compile features
+[0.397s] -- Detecting CXX compile features - done
+[0.407s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.425s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.425s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.564s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.617s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.617s] -- Configured cppcheck include dirs: 
+[0.617s] -- Configured cppcheck exclude dirs and/or files: 
+[0.618s] -- Added test 'lint_cmake' to check CMake code style
+[0.619s] -- Added test 'uncrustify' to check C / C++ code style
+[0.619s] -- Configured uncrustify additional arguments: 
+[0.619s] -- Added test 'xmllint' to check XML markup files
+[0.620s] -- Configuring done
+[0.624s] -- Generating done
+[0.626s] -- Build files have been written to: /home/her0/assignment_ws/src/robotics_software_engineer/build/module_1_assignment
+[0.630s] Invoked command in '/home/her0/assignment_ws/src/robotics_software_engineer/build/module_1_assignment' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/her0/assignment_ws/src/robotics_software_engineer/module_1_assignment -DCMAKE_INSTALL_PREFIX=/home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment
+[0.636s] Invoking command in '/home/her0/assignment_ws/src/robotics_software_engineer/build/module_1_assignment': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/her0/assignment_ws/src/robotics_software_engineer/build/module_1_assignment -- -j12 -l12
+[0.669s] [35m[1mScanning dependencies of target task_3[0m
+[0.675s] [35m[1mScanning dependencies of target task_3.1[0m
+[0.677s] [35m[1mScanning dependencies of target task_1[0m
+[0.680s] [35m[1mScanning dependencies of target task_2[0m
+[0.681s] [ 12%] [32mBuilding CXX object CMakeFiles/task_3.dir/src/task_3.cpp.o[0m
+[0.686s] [ 25%] [32mBuilding CXX object CMakeFiles/task_3.1.dir/src/task_3.1.cpp.o[0m
+[0.695s] [ 37%] [32mBuilding CXX object CMakeFiles/task_2.dir/src/task_2.cpp.o[0m
+[0.704s] [ 50%] [32mBuilding CXX object CMakeFiles/task_1.dir/src/task_1.cpp.o[0m
+[0.855s] [ 62%] [32m[1mLinking CXX executable task_2[0m
+[0.883s] [ 75%] [32m[1mLinking CXX executable task_3.1[0m
+[0.899s] [ 87%] [32m[1mLinking CXX executable task_1[0m
+[0.918s] [ 87%] Built target task_2
+[0.948s] [100%] [32m[1mLinking CXX executable task_3[0m
+[0.950s] [100%] Built target task_3.1
+[0.956s] [100%] Built target task_1
+[0.994s] [100%] Built target task_3
+[1.003s] Invoked command in '/home/her0/assignment_ws/src/robotics_software_engineer/build/module_1_assignment' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/her0/assignment_ws/src/robotics_software_engineer/build/module_1_assignment -- -j12 -l12
+[1.004s] Invoking command in '/home/her0/assignment_ws/src/robotics_software_engineer/build/module_1_assignment': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/her0/assignment_ws/src/robotics_software_engineer/build/module_1_assignment
+[1.010s] -- Install configuration: ""
+[1.010s] -- Installing: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/lib/module_1_assignment/task_1
+[1.010s] -- Installing: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/lib/module_1_assignment/task_2
+[1.010s] -- Installing: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/lib/module_1_assignment/task_3
+[1.010s] -- Installing: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/lib/module_1_assignment/task_3.1
+[1.010s] -- Installing: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/ament_index/resource_index/package_run_dependencies/module_1_assignment
+[1.010s] -- Installing: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/ament_index/resource_index/parent_prefix_path/module_1_assignment
+[1.010s] -- Installing: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/module_1_assignment/environment/ament_prefix_path.sh
+[1.010s] -- Installing: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/module_1_assignment/environment/ament_prefix_path.dsv
+[1.010s] -- Installing: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/module_1_assignment/environment/path.sh
+[1.010s] -- Installing: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/module_1_assignment/environment/path.dsv
+[1.010s] -- Installing: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/module_1_assignment/local_setup.bash
+[1.010s] -- Installing: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/module_1_assignment/local_setup.sh
+[1.011s] -- Installing: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/module_1_assignment/local_setup.zsh
+[1.011s] -- Installing: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/module_1_assignment/local_setup.dsv
+[1.011s] -- Installing: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/module_1_assignment/package.dsv
+[1.011s] -- Installing: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/ament_index/resource_index/packages/module_1_assignment
+[1.011s] -- Installing: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/module_1_assignment/cmake/module_1_assignmentConfig.cmake
+[1.011s] -- Installing: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/module_1_assignment/cmake/module_1_assignmentConfig-version.cmake
+[1.011s] -- Installing: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/module_1_assignment/package.xml
+[1.012s] Invoked command in '/home/her0/assignment_ws/src/robotics_software_engineer/build/module_1_assignment' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/her0/assignment_ws/src/robotics_software_engineer/build/module_1_assignment

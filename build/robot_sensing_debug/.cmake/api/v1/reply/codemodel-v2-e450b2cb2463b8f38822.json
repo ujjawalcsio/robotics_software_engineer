@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "robot_sensing_debug",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "lineFollowing::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lineFollowing-c9eb7a1160b1aea0a88c.json",
+					"name" : "lineFollowing",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mazeSolving::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mazeSolving-1ee4a2a13be04db7edb2.json",
+					"name" : "mazeSolving",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_sensing_debug_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_sensing_debug_uninstall-41fe0b1e9d0c18ca0d20.json",
+					"name" : "robot_sensing_debug_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0d3a8ee8efd77edbfe7d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/her0/assignment_ws/src/robotics_software_engineer/build/robot_sensing_debug",
+		"source" : "/home/her0/assignment_ws/src/robotics_software_engineer/module_4_assessment/robot_sensing_debug"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

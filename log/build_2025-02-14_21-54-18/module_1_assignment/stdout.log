@@ -1,0 +1,64 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/her0/assignment_ws/src/robotics_software_engineer/build/module_1_assignment
+[35m[1mScanning dependencies of target task_3[0m
+[35m[1mScanning dependencies of target task_3.1[0m
+[35m[1mScanning dependencies of target task_1[0m
+[35m[1mScanning dependencies of target task_2[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/task_3.dir/src/task_3.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/task_3.1.dir/src/task_3.1.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/task_2.dir/src/task_2.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/task_1.dir/src/task_1.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable task_2[0m
+[ 75%] [32m[1mLinking CXX executable task_3.1[0m
+[ 87%] [32m[1mLinking CXX executable task_1[0m
+[ 87%] Built target task_2
+[100%] [32m[1mLinking CXX executable task_3[0m
+[100%] Built target task_3.1
+[100%] Built target task_1
+[100%] Built target task_3
+-- Install configuration: ""
+-- Installing: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/lib/module_1_assignment/task_1
+-- Installing: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/lib/module_1_assignment/task_2
+-- Installing: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/lib/module_1_assignment/task_3
+-- Installing: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/lib/module_1_assignment/task_3.1
+-- Installing: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/ament_index/resource_index/package_run_dependencies/module_1_assignment
+-- Installing: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/ament_index/resource_index/parent_prefix_path/module_1_assignment
+-- Installing: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/module_1_assignment/environment/ament_prefix_path.sh
+-- Installing: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/module_1_assignment/environment/ament_prefix_path.dsv
+-- Installing: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/module_1_assignment/environment/path.sh
+-- Installing: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/module_1_assignment/environment/path.dsv
+-- Installing: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/module_1_assignment/local_setup.bash
+-- Installing: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/module_1_assignment/local_setup.sh
+-- Installing: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/module_1_assignment/local_setup.zsh
+-- Installing: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/module_1_assignment/local_setup.dsv
+-- Installing: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/module_1_assignment/package.dsv
+-- Installing: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/ament_index/resource_index/packages/module_1_assignment
+-- Installing: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/module_1_assignment/cmake/module_1_assignmentConfig.cmake
+-- Installing: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/module_1_assignment/cmake/module_1_assignmentConfig-version.cmake
+-- Installing: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/module_1_assignment/package.xml

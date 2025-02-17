@@ -1,0 +1,30 @@
+[ 20%] Built target led_publisher
+[ 40%] Built target task_1
+[ 60%] Built target led_subscriber
+[ 80%] Built target task_3
+[100%] Built target task_2
+-- Install configuration: ""
+-- Up-to-date: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_2_assignment/lib/module_2_assignment/task_1
+-- Up-to-date: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_2_assignment/lib/module_2_assignment/task_2
+-- Up-to-date: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_2_assignment/lib/module_2_assignment/task_3
+-- Up-to-date: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_2_assignment/lib/module_2_assignment/led_publisher
+-- Up-to-date: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_2_assignment/lib/module_2_assignment/led_subscriber
+-- Up-to-date: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_2_assignment/share/module_2_assignment/launch
+-- Up-to-date: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_2_assignment/share/module_2_assignment/launch/led_control.launch.py
+-- Up-to-date: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_2_assignment/share/module_2_assignment/launch/task_3.launch.py
+-- Up-to-date: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_2_assignment/share/module_2_assignment/launch/task_2.launch.py
+-- Up-to-date: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_2_assignment/share/ament_index/resource_index/package_run_dependencies/module_2_assignment
+-- Up-to-date: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_2_assignment/share/ament_index/resource_index/parent_prefix_path/module_2_assignment
+-- Up-to-date: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_2_assignment/share/module_2_assignment/environment/ament_prefix_path.sh
+-- Up-to-date: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_2_assignment/share/module_2_assignment/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_2_assignment/share/module_2_assignment/environment/path.sh
+-- Up-to-date: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_2_assignment/share/module_2_assignment/environment/path.dsv
+-- Up-to-date: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_2_assignment/share/module_2_assignment/local_setup.bash
+-- Up-to-date: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_2_assignment/share/module_2_assignment/local_setup.sh
+-- Up-to-date: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_2_assignment/share/module_2_assignment/local_setup.zsh
+-- Up-to-date: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_2_assignment/share/module_2_assignment/local_setup.dsv
+-- Installing: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_2_assignment/share/module_2_assignment/package.dsv
+-- Up-to-date: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_2_assignment/share/ament_index/resource_index/packages/module_2_assignment
+-- Up-to-date: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_2_assignment/share/module_2_assignment/cmake/module_2_assignmentConfig.cmake
+-- Up-to-date: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_2_assignment/share/module_2_assignment/cmake/module_2_assignmentConfig-version.cmake
+-- Up-to-date: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_2_assignment/share/module_2_assignment/package.xml

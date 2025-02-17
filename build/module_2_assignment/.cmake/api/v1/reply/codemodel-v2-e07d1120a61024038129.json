@@ -1,0 +1,114 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "module_2_assignment",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "led_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-led_publisher-2f52908c7765bb13ff3e.json",
+					"name" : "led_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "led_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-led_subscriber-6e86edba90be0dda0a11.json",
+					"name" : "led_subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_2_assignment_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_2_assignment_uninstall-65d3a7157459a93bc88c.json",
+					"name" : "module_2_assignment_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task_1-20526bbf460b7b2a4d48.json",
+					"name" : "task_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task_2-6b5dd741ce489adef778.json",
+					"name" : "task_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task_3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task_3-4495001b60c46291c050.json",
+					"name" : "task_3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2c94b60439c3f9d7024b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/her0/assignment_ws/src/robotics_software_engineer/build/module_2_assignment",
+		"source" : "/home/her0/assignment_ws/src/robotics_software_engineer/module_2_assignment"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

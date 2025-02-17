@@ -1,0 +1,28 @@
+[0.039s] Invoking command in '/home/her0/assignment_ws/src/robotics_software_engineer/build/module_1_assignment': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/her0/assignment_ws/src/robotics_software_engineer/build/module_1_assignment -- -j12 -l12
+[0.085s] [ 25%] Built target task_3.1
+[0.085s] [ 50%] Built target task_3
+[0.085s] [ 75%] Built target task_1
+[0.086s] [100%] Built target task_2
+[0.120s] Invoked command in '/home/her0/assignment_ws/src/robotics_software_engineer/build/module_1_assignment' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/her0/assignment_ws/src/robotics_software_engineer/build/module_1_assignment -- -j12 -l12
+[0.122s] Invoking command in '/home/her0/assignment_ws/src/robotics_software_engineer/build/module_1_assignment': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/her0/assignment_ws/src/robotics_software_engineer/build/module_1_assignment
+[0.133s] -- Install configuration: ""
+[0.133s] -- Up-to-date: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/lib/module_1_assignment/task_1
+[0.134s] -- Up-to-date: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/lib/module_1_assignment/task_2
+[0.134s] -- Up-to-date: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/lib/module_1_assignment/task_3
+[0.134s] -- Up-to-date: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/lib/module_1_assignment/task_3.1
+[0.134s] -- Up-to-date: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/ament_index/resource_index/package_run_dependencies/module_1_assignment
+[0.134s] -- Up-to-date: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/ament_index/resource_index/parent_prefix_path/module_1_assignment
+[0.134s] -- Up-to-date: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/module_1_assignment/environment/ament_prefix_path.sh
+[0.134s] -- Up-to-date: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/module_1_assignment/environment/ament_prefix_path.dsv
+[0.134s] -- Up-to-date: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/module_1_assignment/environment/path.sh
+[0.134s] -- Up-to-date: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/module_1_assignment/environment/path.dsv
+[0.134s] -- Up-to-date: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/module_1_assignment/local_setup.bash
+[0.134s] -- Up-to-date: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/module_1_assignment/local_setup.sh
+[0.134s] -- Up-to-date: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/module_1_assignment/local_setup.zsh
+[0.134s] -- Up-to-date: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/module_1_assignment/local_setup.dsv
+[0.134s] -- Installing: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/module_1_assignment/package.dsv
+[0.134s] -- Up-to-date: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/ament_index/resource_index/packages/module_1_assignment
+[0.134s] -- Up-to-date: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/module_1_assignment/cmake/module_1_assignmentConfig.cmake
+[0.134s] -- Up-to-date: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/module_1_assignment/cmake/module_1_assignmentConfig-version.cmake
+[0.134s] -- Up-to-date: /home/her0/assignment_ws/src/robotics_software_engineer/install/module_1_assignment/share/module_1_assignment/package.xml
+[0.157s] Invoked command in '/home/her0/assignment_ws/src/robotics_software_engineer/build/module_1_assignment' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/her0/assignment_ws/src/robotics_software_engineer/build/module_1_assignment

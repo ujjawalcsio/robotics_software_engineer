@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<robot name="three_dof_arm">
+
+    <!-- Base Link -->
+    <link name="base_link">
+        <visual>
+            <origin xyz="0 0 0.05"/>
+            <geometry>
+                <box size="0.1 0.1 0.1"/>
+            </geometry>
+            <material name="blue">
+                <color rgba="0 0 1 1"/>
+            </material>
+        </visual>
+        <collision>
+            <geometry>
+                <box size="0.1 0.1 0.1"/>
+            </geometry>
+        </collision>
+    </link>
+
+    <!-- Link 1 -->
+    <link name="link1">
+        <visual>
+            <origin xyz="0 0 0.2"/>
+            <geometry>
+                <cylinder length="0.5" radius="0.05"/>
+            </geometry>
+            <material name="green">
+                <color rgba="0 1 0 1"/>
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0.2"/>
+            <geometry>
+                <cylinder length="0.5" radius="0.05"/>
+            </geometry>
+        </collision>
+    </link>
+    
+    <!-- Joint 1 (on top of base_link) -->
+    <joint name="joint1" type="revolute">
+        <parent link="base_link"/>
+        <child link="link1"/>
+        <origin xyz="0 0 0.1" rpy="0 0 0"/>  <!-- Placed at top of base_link -->
+        <axis xyz="0 0 1"/>
+        <limit lower="-1.57" upper="1.57" effort="10.0" velocity="1.0"/>
+    </joint>
+
+    <!-- Joint 2 (on top of Link 1) -->
+    <joint name="joint2" type="revolute">
+        <parent link="link1"/>
+        <child link="link2"/>
+        <origin xyz="0 0 0.45" rpy="0 0 0"/>  <!-- Placed at top of link1 -->
+        <axis xyz="0 1 0"/>
+        <limit lower="-1.57" upper="1.57" effort="10.0" velocity="1.0"/>
+    </joint>
+
+    <!-- Link 2 -->
+    <link name="link2">
+        <visual>
+            <origin xyz="0 0 0.25"/>  <!-- Centered at 0.25 to start from 0 -->
+            <geometry>
+                <cylinder length="0.5" radius="0.05"/>
+            </geometry>
+            <material name="red">
+                <color rgba="1 0 0 1"/>
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0.25"/>
+            <geometry>
+                <cylinder length="0.5" radius="0.05"/>
+            </geometry>
+        </collision>
+    </link>
+
+    <!-- Joint 3 (on top of Link 2) -->
+    <joint name="joint3" type="revolute">
+        <parent link="link2"/>
+        <child link="link3"/>
+        <origin xyz="0 0 0.5" rpy="0 0 0"/>  <!-- Placed at top of link2 -->
+        <axis xyz="0 1 0"/>
+        <limit lower="-1.57" upper="1.57" effort="10.0" velocity="1.0"/>
+    </joint>
+
+    <!-- Link 3 -->
+    <link name="link3">
+        <visual>
+            <origin xyz="0 0 0.25"/>  <!-- Centered at 0.75 to start from 0.5 -->
+            <geometry>
+                <cylinder length="0.5" radius="0.05"/>
+            </geometry>
+            <material name="yellow">
+                <color rgba="1 1 0 1"/>
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0.25"/>
+            <geometry>
+                <cylinder length="0.5" radius="0.05"/>
+            </geometry>
+        </collision>
+    </link>
+
+</robot>

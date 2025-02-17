@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/her0/assignment_ws/src/robotics_software_engineer/module_1_assignment/src/task_3.1.cpp
+iostream
+-
+string
+-
+
